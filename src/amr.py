@@ -534,7 +534,6 @@ class AMR(DependencyGraph):
                         s += ')'
                         prefix = ".".join(prefix.split(".")[0:-1])
                         counts.pop(-1)
-                                    #print ("5", s)
                         instance_fulfilled = None
                 if d is not None:
                     s += '\n' + indent*len(stack) + r
